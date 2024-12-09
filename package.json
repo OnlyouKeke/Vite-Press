@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs --host",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "tsparticles": "^3.6.0",
+    "tsparticles-engine": "^2.12.0"
+  }
+}
